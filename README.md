@@ -14,7 +14,8 @@ RECOGNITION OF HANDWRITTEN DIGITS
 ____
 ## INSTALLATION
 Make sure that all libraries from *requirements.txt* are installed on your machine.  
-There are 3 ways to run this project:  
+
+There are several ways to run this project:  
 **I**. Download ***neural_network.py*** and create a project in any IDE for Python (for example PyCharm or IDLE)  
 
 **II**. Download ***neural_network.ipynb*** and open it in Google Colab (online)  
@@ -23,7 +24,7 @@ There are 3 ways to run this project:
 - ***docker pull jauhienvolkau/nn:mytag***
 - ***docker run jauhienvolkau/nn:mytag***  
 
-**IV**. You can use saved weights if you don't want to train a model. You need to download all files from the corresponding folder and save them to the same folder as file with the source code. Then in your project comment lines 188-198 from  ***neural_network.py*** and paste
+**IV**. You can use saved weights if you don't want to train a model. You need to download all files from the corresponding folder and save them to the same folder as file with the source code. Then in your project comment lines 188-198 from  ***neural_network.py*** and after pasting this code you can make predictions without training the model:
 ```python
     network.W1 = np.load('W1.npz')
     network.b1 = np.load('b1.npz')
