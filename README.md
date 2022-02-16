@@ -11,6 +11,8 @@ RECOGNITION OF HANDWRITTEN DIGITS
 - Updating weights: Nesterov Accelerated Gradient method (NAG)
 - Stack: only basic libraries are allowed (such as pandas, numpy and others); pytorch, tensorflow and similar libraries can not be used
 - Plot loss function by epochs for train and validation modes
+
+The MNIST dataset of handwritten digits was used.
 ____
 ## INSTALLATION AND GETTING STARTED
 Make sure that all libraries from *requirements.txt* are installed on your machine.  
