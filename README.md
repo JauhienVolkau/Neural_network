@@ -1,4 +1,4 @@
-# Neural network for recognition handwritten digits
+# Neural network for handwritten digits recognition
 ____
 ## TASK
 RECOGNITION OF HANDWRITTEN DIGITS
