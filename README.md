@@ -15,9 +15,9 @@ ____
 ## INSTALLATION
 Make sure that all libraries from *requirements.txt* are installed on your machine.  
 There are 3 ways to run this project:  
-I. Download .py and create a project in any IDE for Python (for example PyCharm or IDLE)  
-II. Download .ipynb and open it in Google Colab (online)  
-III. If you use Docker, you can download and run the project by doing these commands:
+**I**. Download .py and create a project in any IDE for Python (for example PyCharm or IDLE)  
+**II**. Download .ipynb and open it in Google Colab (online)  
+**III**. If you use Docker, you can download and run the project by doing these commands:
 - ***docker pull jauhienvolkau/nn:mytag***
 - ***docker run jauhienvolkau/nn:mytag***
 ____
