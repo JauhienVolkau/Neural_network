@@ -20,5 +20,5 @@ There are 3 ways to run this project:
 **III**. If you use Docker, you can download and run the project by doing these commands:
 - ***docker pull jauhienvolkau/nn:mytag***
 - ***docker run jauhienvolkau/nn:mytag***
-**IV**. You can use saved weights if you don't want to train a model. You need to download all files from the corresponding folder.
+**IV**. You can use saved weights if you don't want to train a model. You need to download all files from the corresponding folder. Then in your project comment the line ``
 ____
