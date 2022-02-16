@@ -19,7 +19,7 @@ There are 3 ways to run this project:
 **II**. Download ***neural_network.ipynb*** and open it in Google Colab (online)  
 **III**. If you use Docker, you can download and run the project by doing these commands:
 - ***docker pull jauhienvolkau/nn:mytag***
-- ***docker run jauhienvolkau/nn:mytag***
+- ***docker run jauhienvolkau/nn:mytag***  
 **IV**. You can use saved weights if you don't want to train a model. You need to download all files from the corresponding folder and save them to the same folder as file with the source code. Then in your project comment lines 188-198 from  ***neural_network.py*** and paste
 ```python
     network.W1 = np.load('W1.npz')
