@@ -7,7 +7,7 @@ RECOGNITION OF HANDWRITTEN DIGITS
     - 1 hidden layer with 128 neurons (activation function is softmax)
     - 1 output layer with 11 neurons (the 11th neuron is needed to make it possible in future to detect a case when the model can't recognize a symbol as a digit)
 - The output is a digit 0-9 or none
-- Loss function is CrossEntropy (CE)
+- Loss function: CrossEntropy (CE)
 - Updating weights: Nesterov Accelerated Gradient method (NAG)
 - Stack: only basic libraries are allowed (such as pandas, numpy and others); pytorch, tensorflow and similar libraries can not be used
 - Plot loss function by epochs for train and validation modes
@@ -24,7 +24,7 @@ There are several ways to run this project:
 - ***docker pull jauhienvolkau/nn:mytag***
 - ***docker run jauhienvolkau/nn:mytag***  
 
-**IV**. You can use saved weights if you don't want to train a model. You need to download all files from the corresponding folder and save them to the same folder as file with the source code. Then in your project comment lines 188-198 from  ***neural_network.py*** and after pasting this code you can make predictions without training the model:
+**IV**. You can use saved weights if you don't want to train a model. You need to download all files from the corresponding folder and save them to the same folder as a file with the source code. Then in your project comment lines 188-198 from  ***neural_network.py*** and after pasting this code you can make predictions without training the model:
 ```python
     network.W1 = np.load('W1.npz')
     network.b1 = np.load('b1.npz')
