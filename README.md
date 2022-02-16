@@ -1,4 +1,4 @@
-# Neural network for recognizion handwritten digits
+# Neural network for recognition handwritten digits
 ____
 ## Task
 RECOGNITION OF HANDWRITTEN DIGITS
@@ -18,6 +18,6 @@ There are 3 ways to run this project:
 I. Download .py and create a project in any IDE for Python (for example PyCharm or IDLE)
 II. Download .ipynb and open it in Google Colab (online)
 III. If you use Docker, you can download and run the project by doing these commands:
--***docker pull jauhienvolkau/nn:mytag***
--***docker run jauhienvolkau/nn:mytag***
+- ***docker pull jauhienvolkau/nn:mytag***
+- ***docker run jauhienvolkau/nn:mytag***
 ____
