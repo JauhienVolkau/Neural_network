@@ -6,7 +6,7 @@ RECOGNITION OF HANDWRITTEN DIGITS
     - 1 input layer with 28x28 neurons (activation function is ReLU)
     - 1 hidden layer with 128 neurons (activation function is softmax)
     - 1 output layer with 11 neurons (the 11th neuron is needed to make it possible in future to detect a case when the model can't recognize a symbol as a digit)
-- The output is a digit 0-9 or none
+- The output is a digit 0-9 or none (if not digit)
 - Loss function: CrossEntropy (CE)
 - Updating weights: Nesterov Accelerated Gradient method (NAG)
 - Stack: only basic libraries are allowed (such as pandas, numpy and others); pytorch, tensorflow and similar libraries can not be used
