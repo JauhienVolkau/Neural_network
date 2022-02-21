@@ -10,7 +10,7 @@ import cv2
 from google.colab.patches import cv2_imshow
 
 def ReLU(vector):
-  return np.array([max(0,vector[i]) for i in range(len(vector))])
+  return vector*(vector>0)
 
 def softmax(vector):
   e_i = np.exp(vector)
